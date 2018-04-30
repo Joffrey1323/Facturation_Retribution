@@ -1,0 +1,151 @@
+[
+  {"id":1,"date":"2018-03-29 18:50:00",
+    "commande":{"id":1,"date":"2018-03-14 18:39:00",
+      "client":{"id":1,"raisonSociale":"Ecole de mon quartier",
+        "facturationAdresse":null,
+        "livraisonAdresses":[null,null]},
+        "dateLivraison":"2018-03-29 18:39:00",
+
+        "lignes":
+        [{"id":1,
+          "commande":null,
+          "produit":null,
+          "quantite":200
+        }
+          ,{"id":2,"commande":null,
+            "produit":null,
+            "quantite":20}
+            ],
+            "adresseLivraison":
+            {"id":1,
+              "societe":null,
+              "rueNumero":16,
+              "rueNumeroComplement":null,
+              "rueType":null,
+              "rueNom":"DES ALOUETTES",
+              "codePostal":"87110",
+              "ville":"Bosmie-L'aiguille"
+              }
+            },
+            "lignes":
+            [
+              {"id":1,
+                "livraison":
+                {"id":1,
+                  "date":"2018-03-29 18:50:00",
+                  "commande":null,
+                  "lignes":[null,null]
+                },
+                "produit":
+                {"id":1,
+                  "categorie":null,
+                  "libelle":"Super jus du matin, aux fruits rouges, 750ml",
+                  "reference":"SJM",
+                  "ventes":[null,null],
+                  "prixVente":2.59,
+                  "prixAchat":1.3,
+                  "selfStock":15,
+                  "fournisseurStocks":[]
+                },
+                "quantite":100
+                },
+                {"id":2,
+                  "livraison":
+                  {"id":1,
+                    "date":"2018-03-29 18:50:00",
+                    "commande":null,
+                    "lignes":[null,null]
+                  },
+                  "produit":
+                  {"id":3,
+                    "categorie":null,
+                    "libelle":"Pur jus mon p'tit jus de pomme 6x 20 cl",
+                    "reference":"TROP1",
+                    "ventes":[null],
+                    "prixVente":3.99,
+                    "prixAchat":2,
+                    "selfStock":5,
+                    "fournisseurStocks":[]
+                  },
+                  "quantite":500}
+                ]
+              },
+              {"id":2,
+                "date":"2018-03-29 20:00:00",
+                "commande":
+                {"id":2,
+                  "date":"2018-03-14 18:40:00",
+                  "client":
+                  {"id":2,
+                    "raisonSociale":"Hopital des malades",
+                    "facturationAdresse":null,
+                    "livraisonAdresses":[null]
+                  },
+                  "dateLivraison":"2018-03-29 18:40:00",
+                  "lignes":
+                  [
+                    {"id":3,
+                      "commande":null,
+                      "produit":null,
+                      "quantite":800
+                    },
+                    {"id":4,
+                      "commande":null,
+                      "produit":null,
+                      "quantite":500
+                    }
+                  ],
+                  "adresseLivraison":
+                  {"id":2,
+                    "societe":null,
+                    "rueNumero":1,
+                    "rueNumeroComplement":null,
+                    "rueType":null,
+                    "rueNom":"DES MESANGES",
+                    "codePostal":"87280",
+                    "ville":"LIMOGES"}
+                  },
+                  "lignes":[
+                    {"id":3,
+                      "livraison":
+                    {"id":2,
+                      "date":"2018-03-29 20:00:00",
+                      "commande":null,
+                      "lignes":[null,null]
+                    },
+                    "produit":
+                    {"id":1,
+                      "categorie":null,
+                      "libelle":"Super jus du matin, aux fruits rouges, 750ml",
+                      "reference":"SJM",
+                      "ventes":[null,null],
+                      "prixVente":2.59,
+                      "prixAchat":1.3,
+                      "selfStock":15,
+                      "fournisseurStocks":[]
+                    },
+                    "quantite":400
+                    },
+                    {"id":4,
+                      "livraison":
+                      {"id":2,
+                        "date":"2018-03-29 20:00:00",
+                        "commande":null,
+                        "lignes":[null,null]
+                      },
+                      "produit":
+                        {"id":2,
+                          "categorie":null,
+                          "libelle":"Pur jus r\u00e9frig\u00e9r\u00e9 ananas\/fruit de la passion, 900ml",
+                          "reference":"ANAFP",
+                          "ventes":[null],
+                          "prixVente":2.45,
+                          "prixAchat":1.2,
+                          "selfStock":156,
+                          "fournisseurStocks":[]
+                        },
+                        "quantite":200
+                        }
+                      ]
+                    }
+                ]

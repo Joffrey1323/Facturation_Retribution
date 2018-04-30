@@ -1,0 +1,90 @@
+[
+  {"id":1,
+    "raisonSociale":"Ecole de mon quartier",
+    "facturationAdresse":null,
+    "livraisonAdresses":
+    [
+      {"id":1,
+        "societe":
+            {"id":1,
+              "raisonSociale":"Ecole de mon quartier",
+              "facturationAdresse":null,
+              "livraisonAdresses":[null,null]
+            },
+          "rueNumero":16,
+          "rueNumeroComplement":
+          {"id":1,
+            "libelleCourt":" ",
+            "libelle":" "},
+            "rueType":
+            {"id":1,"libelle":"rue"},
+            "rueNom":"DES ALOUETTES",
+            "codePostal":"87110",
+            "ville":"Bosmie-L'aiguille"},
+            {"id":2,
+              "societe":
+              {"id":1,
+                "raisonSociale":"Ecole de mon quartier",
+                "facturationAdresse":null,
+                "livraisonAdresses":[null,null]
+              },
+              "rueNumero":1,
+              "rueNumeroComplement":null,
+              "rueType":
+              {"id":3,
+                "libelle":"all\u00e9e"
+              },
+              "rueNom":"DES MESANGES",
+              "codePostal":"87280",
+              "ville":"LIMOGES"
+            }
+          ]
+        },
+        {"id":2,
+          "raisonSociale":"Hopital des malades",
+          "facturationAdresse":null,
+          "livraisonAdresses":
+          [
+            {"id":3,
+              "societe":
+              {"id":2,
+                "raisonSociale":"Hopital des malades",
+                "facturationAdresse":null,
+                "livraisonAdresses":[null]
+              },
+              "rueNumero":2,
+              "rueNumeroComplement":null,
+              "rueType":
+              {"id":3,
+                "libelle":"all\u00e9e"},
+                "rueNom":"Martin Luther King",
+                "codePostal":"8700",
+                "ville":"Limoges"
+              }
+            ]
+          },
+          {"id":3,
+            "raisonSociale":"Restaurant de la gare",
+            "facturationAdresse":null,
+            "livraisonAdresses":
+            [
+              {"id":6,
+                "societe":
+                {
+                  "id":3,
+                  "raisonSociale":"Restaurant de la gare",
+                  "facturationAdresse":null,
+                  "livraisonAdresses":[null]
+                },
+                "rueNumero":25,
+                "rueNumeroComplement":null,
+                "rueType":
+                {"id":1,
+                  "libelle":"rue"
+                },
+                "rueNom":"Chinchauvaud",
+                "codePostal":"87100",
+                "ville":"Limoges"}
+              ]
+            }
+        ]
